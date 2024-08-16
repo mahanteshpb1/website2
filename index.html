@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to the Educational Platform</h1>
+        <p>Learn new skills from the comfort of your home.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Learn how to build websites from scratch.</p>
+                <p>Price: $199</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Analyze data to gain valuable insights.</p>
+                <p>Price: $299</p>
+            </div>
+            <div class="course">
+                <h3>Graphic Design</h3>
+                <p>Create stunning visuals and graphics.</p>
+                <p>Price: $149</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Choose a plan that fits your needs.</p>
+        <ul>
+            <li>Basic: $49/month</li>
+            <li>Standard: $99/month</li>
+            <li>Premium: $149/month</li>
+        </ul>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginStatus"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Educational Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
